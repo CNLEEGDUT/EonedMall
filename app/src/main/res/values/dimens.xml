@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--底部按钮属性-->
+    <dimen name="bom_btn_hei">56dp</dimen>
+    <dimen name="bom_btn_iv">20dp</dimen>
+    <dimen name="bom_btn_font">13sp</dimen>
+</resources>
