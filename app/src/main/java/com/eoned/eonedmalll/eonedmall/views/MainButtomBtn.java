@@ -14,7 +14,9 @@ import android.widget.TextView;
 import com.eoned.eonedmalll.eonedmall.R;
 import com.eoned.eonedmalll.eonedmall.utils.UIUtils;
 
-
+/**
+ * Created by Administrator on 2018/2/24.
+ */
 
 public class MainButtomBtn extends LinearLayout {
 

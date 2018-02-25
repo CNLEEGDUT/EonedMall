@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 /**
- * Created by yusheng on 2016/11/28.
+ * Created by Administrator on 2018/2/24.
  */
 public class NetApplication extends Application {
 

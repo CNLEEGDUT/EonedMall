@@ -12,6 +12,9 @@ import com.eoned.eonedmalll.eonedmall.home.HomeFragment;
 import com.eoned.eonedmalll.eonedmall.me.MeFragment;
 import com.eoned.eonedmalll.eonedmall.views.MainButtomBtn;
 
+/**
+ * Created by Administrator on 2018/2/24.
+ */
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 

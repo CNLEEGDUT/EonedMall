@@ -9,7 +9,9 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
-
+/**
+ * Created by Administrator on 2018/2/24.
+ */
 /**
  * 自定义Rv分割线
  */

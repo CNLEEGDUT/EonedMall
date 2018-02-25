@@ -46,6 +46,8 @@ public class HomeFragment extends BaseFragment {
 
         initbanner(mHomeRvAdapter);
 
+        initmiddlebtns(mHomeRvAdapter);
+
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(), 2);
         // 设置布局管理一条数据占用几行，如果是头布局则头布局自己占用一行
         gridLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
@@ -66,6 +68,12 @@ public class HomeFragment extends BaseFragment {
     }
 
 
+    /**
+     * 初始化中间按钮
+     * */
+    private void initmiddlebtns(HomeRvAdapter mHomeRvAdapter) {
+
+    }
 
 
     /**
