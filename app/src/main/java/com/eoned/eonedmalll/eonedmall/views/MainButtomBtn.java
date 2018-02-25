@@ -41,7 +41,7 @@ public class MainButtomBtn extends LinearLayout {
         setGravity(Gravity.CENTER);
         setPadding(UIUtils.dip2px(5),UIUtils.dip2px(5),UIUtils.dip2px(5),UIUtils.dip2px(5));
 
-        View bottomBtnView = LayoutInflater.from(context).inflate(R.layout.main_bottom_btn_view, this, true);
+        View bottomBtnView = LayoutInflater.from(context).inflate(R.layout.view_mainactivity_bottom_btn, this, true);
         iv = bottomBtnView.findViewById(R.id.main_bom_btn_iv);
         tv = bottomBtnView.findViewById(R.id.main_bom_btn_tv);
     }

@@ -53,6 +53,8 @@ public class HomeFragment extends BaseFragment {
             public int getSpanSize(int postion) {
                 if (postion == 0) {
                     return 2;
+                } else if (postion == 1) {
+                    return 2;
                 } else {
                     return 1;
                 }
@@ -64,11 +66,13 @@ public class HomeFragment extends BaseFragment {
     }
 
 
+
+
     /**
      * 初始化topbanner
      */
     private void initbanner(HomeRvAdapter mHomeRvAdapter) {
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_home_topbanner, null);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.view_homefragment_topbanner, null);
         FlyBanner topBanner = view.findViewById(R.id.fb_home_top);
 
         List<String> bigPics = new ArrayList<>();

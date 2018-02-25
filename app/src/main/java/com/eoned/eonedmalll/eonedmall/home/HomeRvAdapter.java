@@ -23,7 +23,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private final int NORMAL = 100;
 
     /**
-     * 头布局view enable
+     * 头布局view
      */
     private View headView0;
     private View headView1;
@@ -37,6 +37,10 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == HEADER0) {
             return new TopBannerHolder(headView0);
+        } else if (viewType == HEADER1) {
+
+        } else {
+
         }
         return null;
     }
@@ -83,11 +87,11 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     }
 
     class TopBannerHolder extends RecyclerView.ViewHolder {
-
         public TopBannerHolder(View itemView) {
             super(itemView);
         }
     }
+
 
     public void setHeadView0(View headView0) {
         this.headView0 = headView0;
