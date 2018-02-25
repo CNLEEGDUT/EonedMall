@@ -39,7 +39,7 @@ public class HomeMiddleBtn extends LinearLayout {
         setGravity(Gravity.CENTER);
         setPadding(UIUtils.dip2px(5),UIUtils.dip2px(5),UIUtils.dip2px(5),UIUtils.dip2px(5));
 
-        View middleBtnView = LayoutInflater.from(context).inflate(R.layout.view_homefragment_middle_btn, this, true);
+        View middleBtnView = LayoutInflater.from(context).inflate(R.layout.view_homefragment_middlebtn, this, true);
         iv = middleBtnView.findViewById(R.id.home_mid_btn_iv);
         tv = middleBtnView.findViewById(R.id.home_mid_btn_tv);
     }

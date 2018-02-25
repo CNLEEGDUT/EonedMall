@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/home_mid_btn_iv"
+        android:layout_width="@dimen/bom_btn_iv"
+        android:layout_height="@dimen/bom_btn_iv" />
+
+    <TextView
+        android:id="@+id/home_mid_btn_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/font66"
+        android:textSize="@dimen/bom_btn_font" />
+</merge>
