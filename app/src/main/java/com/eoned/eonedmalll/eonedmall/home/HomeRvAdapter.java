@@ -38,7 +38,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         if (viewType == HEADER0) {
             return new TopBannerHolder(headView0);
         } else if (viewType == HEADER1) {
-
+            return new MiddleButtonsHolder(headView1);
         } else {
 
         }
@@ -53,12 +53,15 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             case HEADER0:
 
                 break;
+            case HEADER1:
+
+                break;
         }
     }
 
     @Override
     public int getItemCount() {
-        return 1;
+        return 2;
     }
 
 
@@ -88,6 +91,12 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     class TopBannerHolder extends RecyclerView.ViewHolder {
         public TopBannerHolder(View itemView) {
+            super(itemView);
+        }
+    }
+
+    class MiddleButtonsHolder extends RecyclerView.ViewHolder {
+        public MiddleButtonsHolder(View itemView) {
             super(itemView);
         }
     }

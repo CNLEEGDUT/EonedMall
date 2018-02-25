@@ -12,6 +12,7 @@ import android.view.View;
 /**
  * Created by Administrator on 2018/2/24.
  */
+
 /**
  * 自定义Rv分割线
  */
@@ -82,6 +83,11 @@ public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
                                 int childCount) {
         RecyclerView.LayoutManager layoutManager = parent.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
+
+            //因为第一个是banner,不需要绘制右边
+            if (pos == 0) {
+                return true;
+            }
             if ((pos + 1) % spanCount == 0)// 如果是最后一列，则不需要绘制右边
             {
                 return true;

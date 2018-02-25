@@ -4,12 +4,18 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.eoned.eonedmalll.eonedmall.views.FlyBanner
+    <cn.bingoogolapple.bgabanner.BGABanner
         android:id="@+id/fb_home_top"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintDimensionRatio="H,16:9"></com.eoned.eonedmalll.eonedmall.views.FlyBanner>
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:banner_pageChangeDuration="3000"
+        app:banner_pointAutoPlayAble="true"
+        app:banner_pointContainerBackground="@android:color/transparent"
+        app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
+        app:banner_pointTopBottomMargin="15dp"
+        app:banner_transitionEffect="alpha"></cn.bingoogolapple.bgabanner.BGABanner>
 
 </android.support.constraint.ConstraintLayout>
