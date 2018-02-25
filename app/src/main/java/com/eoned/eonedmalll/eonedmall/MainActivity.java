@@ -10,7 +10,7 @@ import com.eoned.eonedmalll.eonedmall.cart.CartFragment;
 import com.eoned.eonedmalll.eonedmall.categroy.CategroyFragment;
 import com.eoned.eonedmalll.eonedmall.home.HomeFragment;
 import com.eoned.eonedmalll.eonedmall.me.MeFragment;
-import com.eoned.eonedmalll.eonedmall.views.ButtomBtn;
+import com.eoned.eonedmalll.eonedmall.views.MainButtomBtn;
 
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
@@ -44,10 +44,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
 
     /*初始化底部按钮*/
-    private ButtomBtn btnHome;
-    private ButtomBtn btnCategory;
-    private ButtomBtn btnCart;
-    private ButtomBtn btnMe;
+    private MainButtomBtn btnHome;
+    private MainButtomBtn btnCategory;
+    private MainButtomBtn btnCart;
+    private MainButtomBtn btnMe;
 
     private void initButtomBtn() {
         btnHome = findViewById(R.id.btn_home);

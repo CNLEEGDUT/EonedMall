@@ -10,27 +10,25 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-
 import com.eoned.eonedmalll.eonedmall.R;
 import com.eoned.eonedmalll.eonedmall.utils.UIUtils;
 
 
-
-public class ButtomBtn extends LinearLayout {
+public class HomeMiddleBtn extends LinearLayout {
 
     private ImageView iv;
     private TextView tv;
 
-    public ButtomBtn(Context context) {
+    public HomeMiddleBtn(Context context) {
         super(context);
         init(context);
     }
-    public ButtomBtn(Context context, AttributeSet attrs) {
+    public HomeMiddleBtn(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
 
-    public ButtomBtn(Context context, AttributeSet attrs, int defStyleAttr) {
+    public HomeMiddleBtn(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);
     }

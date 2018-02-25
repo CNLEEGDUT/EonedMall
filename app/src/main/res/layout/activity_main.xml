@@ -16,35 +16,35 @@
     app:layout_constraintBottom_toTopOf="@id/btn_home"></FrameLayout>
 
 
-    <com.eoned.eonedmalll.eonedmall.views.ButtomBtn
+    <com.eoned.eonedmalll.eonedmall.views.MainButtomBtn
         android:id="@+id/btn_home"
         android:layout_width="0dp"
         android:layout_height="@dimen/bom_btn_hei"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/btn_category"></com.eoned.eonedmalll.eonedmall.views.ButtomBtn>
+        app:layout_constraintRight_toLeftOf="@id/btn_category"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
 
-    <com.eoned.eonedmalll.eonedmall.views.ButtomBtn
+    <com.eoned.eonedmalll.eonedmall.views.MainButtomBtn
         android:id="@+id/btn_category"
         android:layout_width="0dp"
         android:layout_height="@dimen/bom_btn_hei"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btn_home"
-        app:layout_constraintRight_toLeftOf="@id/btn_cart"></com.eoned.eonedmalll.eonedmall.views.ButtomBtn>
+        app:layout_constraintRight_toLeftOf="@id/btn_cart"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
 
-    <com.eoned.eonedmalll.eonedmall.views.ButtomBtn
+    <com.eoned.eonedmalll.eonedmall.views.MainButtomBtn
         android:id="@+id/btn_cart"
         android:layout_width="0dp"
         android:layout_height="@dimen/bom_btn_hei"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btn_category"
-        app:layout_constraintRight_toLeftOf="@id/btn_me"></com.eoned.eonedmalll.eonedmall.views.ButtomBtn>
+        app:layout_constraintRight_toLeftOf="@id/btn_me"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
 
-    <com.eoned.eonedmalll.eonedmall.views.ButtomBtn
+    <com.eoned.eonedmalll.eonedmall.views.MainButtomBtn
         android:id="@+id/btn_me"
         android:layout_width="0dp"
         android:layout_height="@dimen/bom_btn_hei"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btn_cart"
-        app:layout_constraintRight_toRightOf="parent"></com.eoned.eonedmalll.eonedmall.views.ButtomBtn>
+        app:layout_constraintRight_toRightOf="parent"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
 </android.support.constraint.ConstraintLayout>

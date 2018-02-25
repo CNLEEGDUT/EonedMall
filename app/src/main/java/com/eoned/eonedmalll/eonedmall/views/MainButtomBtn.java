@@ -10,25 +10,27 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+
 import com.eoned.eonedmalll.eonedmall.R;
 import com.eoned.eonedmalll.eonedmall.utils.UIUtils;
 
 
-public class MiddleBtn extends LinearLayout {
+
+public class MainButtomBtn extends LinearLayout {
 
     private ImageView iv;
     private TextView tv;
 
-    public MiddleBtn(Context context) {
+    public MainButtomBtn(Context context) {
         super(context);
         init(context);
     }
-    public MiddleBtn(Context context, AttributeSet attrs) {
+    public MainButtomBtn(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
 
-    public MiddleBtn(Context context, AttributeSet attrs, int defStyleAttr) {
+    public MainButtomBtn(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(context);
     }
