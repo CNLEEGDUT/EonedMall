@@ -2,12 +2,12 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
-        android:id="@+id/bom_btn_iv"
+        android:id="@+id/home_mid_btn_iv"
         android:layout_width="@dimen/bom_btn_iv"
         android:layout_height="@dimen/bom_btn_iv" />
 
     <TextView
-        android:id="@+id/bom_btn_tv"
+        android:id="@+id/home_mid_btn_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"

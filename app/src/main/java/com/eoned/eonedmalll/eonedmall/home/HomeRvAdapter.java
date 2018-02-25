@@ -12,7 +12,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     /**
      * 头布局类型
-     * */
+     */
     private final int HEADER0 = 0;
     private final int HEADER1 = 1;
     private final int HEADER2 = 2;
@@ -23,8 +23,8 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private final int NORMAL = 100;
 
     /**
-     * 头布局view
-     * */
+     * 头布局view enable
+     */
     private View headView0;
     private View headView1;
     private View headView2;
@@ -35,7 +35,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if (viewType==HEADER0){
+        if (viewType == HEADER0) {
             return new TopBannerHolder(headView0);
         }
         return null;
@@ -45,7 +45,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         int viewType = getItemViewType(position);
 
-        switch (viewType){
+        switch (viewType) {
             case HEADER0:
 
                 break;
@@ -60,7 +60,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     /**
      * 根据顺序设定不同的item类型
-     * */
+     */
     @Override
     public int getItemViewType(int position) {
         if (position == 0 && headView0 != null) {
@@ -82,7 +82,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }
     }
 
-    class TopBannerHolder extends RecyclerView.ViewHolder{
+    class TopBannerHolder extends RecyclerView.ViewHolder {
 
         public TopBannerHolder(View itemView) {
             super(itemView);

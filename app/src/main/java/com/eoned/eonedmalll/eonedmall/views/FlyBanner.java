@@ -20,9 +20,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 
+import com.bumptech.glide.Glide;
 import com.eoned.eonedmalll.eonedmall.R;
 import com.eoned.eonedmalll.eonedmall.utils.UIUtils;
-import com.squareup.picasso.Picasso;
+
 
 import java.util.List;
 
@@ -102,12 +103,12 @@ public class FlyBanner extends RelativeLayout {
 
     private void init(Context context, AttributeSet attrs) {
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.HomeFlyBanner);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.FlyBanner);
 
-        mPointsIsVisible = a.getBoolean(R.styleable.HomeFlyBanner_points_visibility, true);
-        mPointPosition = a.getInt(R.styleable.HomeFlyBanner_points_position, CENTER);
+        mPointsIsVisible = a.getBoolean(R.styleable.FlyBanner_points_visibility, true);
+        mPointPosition = a.getInt(R.styleable.FlyBanner_points_position, CENTER);
         mPointContainerBackgroundDrawable
-                = a.getDrawable(R.styleable.HomeFlyBanner_points_container_background);
+                = a.getDrawable(R.styleable.FlyBanner_points_container_background);
 
         a.recycle();
 
@@ -325,7 +326,7 @@ public class FlyBanner extends RelativeLayout {
             });
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             if (mIsImageUrl) {
-                Picasso.with(getContext())
+                Glide.with(getContext())
                         .load(mImageUrls.get(toRealPosition(position)))
                         .into(imageView);
             } else {

@@ -39,9 +39,9 @@ public class HomeMiddleBtn extends LinearLayout {
         setGravity(Gravity.CENTER);
         setPadding(UIUtils.dip2px(5),UIUtils.dip2px(5),UIUtils.dip2px(5),UIUtils.dip2px(5));
 
-        View bottomBtnView = LayoutInflater.from(context).inflate(R.layout.bottom_btn_view, this, true);
-        iv = bottomBtnView.findViewById(R.id.bom_btn_iv);
-        tv = bottomBtnView.findViewById(R.id.bom_btn_tv);
+        View middleBtnView = LayoutInflater.from(context).inflate(R.layout.home_middle_btn_view, this, true);
+        iv = middleBtnView.findViewById(R.id.home_mid_btn_iv);
+        tv = middleBtnView.findViewById(R.id.home_mid_btn_tv);
     }
 
     public void setIvAndTv(int imgRes,String tvString){
