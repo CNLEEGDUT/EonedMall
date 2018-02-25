@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_0"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/hmb_1"
+        app:layout_constraintTop_toTopOf="parent"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
 
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toRightOf="@id/hmb_0"
+        app:layout_constraintRight_toLeftOf="@id/hmb_2"
+        app:layout_constraintTop_toTopOf="parent"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toRightOf="@id/hmb_1"
+        app:layout_constraintRight_toLeftOf="@id/hmb_3"
+        app:layout_constraintTop_toTopOf="parent"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toRightOf="@id/hmb_2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_4"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/hmb_5"
+        app:layout_constraintTop_toBottomOf="@id/hmb_0"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_5"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toRightOf="@id/hmb_4"
+        app:layout_constraintRight_toLeftOf="@id/hmb_6"
+        app:layout_constraintTop_toBottomOf="@id/hmb_0"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_6"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toRightOf="@id/hmb_5"
+        app:layout_constraintRight_toLeftOf="@id/hmb_7"
+        app:layout_constraintTop_toBottomOf="@id/hmb_0"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn
+        android:id="@+id/hmb_7"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/home_mid_btn_hei"
+        app:layout_constraintLeft_toRightOf="@id/hmb_6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hmb_0"></com.eoned.eonedmalll.eonedmall.views.HomeMiddleBtn>
 
 </android.support.constraint.ConstraintLayout>

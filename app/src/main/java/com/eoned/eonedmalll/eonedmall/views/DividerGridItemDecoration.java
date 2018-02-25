@@ -12,7 +12,6 @@ import android.view.View;
 
 /**
  * 自定义Rv分割线
- * Created by yusheng on 2016/11/29.
  */
 public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
     private static final int[] ATTRS = new int[]{android.R.attr.listDivider};

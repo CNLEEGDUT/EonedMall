@@ -28,7 +28,7 @@ import com.eoned.eonedmalll.eonedmall.utils.UIUtils;
 import java.util.List;
 
 /**
- * Created by recker on 16/4/17.
+ * flybanner
  */
 public class FlyBanner extends RelativeLayout {
 
