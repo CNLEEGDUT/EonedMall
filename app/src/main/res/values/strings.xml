@@ -3,13 +3,20 @@
 
     <!--底部按钮-->
     <string name="bom_btn_home">首页</string>
-    <string name="bom_btn_category">类别</string>
-    <string name="bom_btn_cart">购物车</string>
-    <string name="bom_btn_me">我的</string>
+    <string name="bom_btn_category">所有分类</string>
+    <string name="bom_btn_cart">我要采购</string>
+    <string name="bom_btn_price">我要报价</string>
+    <string name="bom_btn_me">我</string>
 
-    <!--home页面-->
-    <string name="find_similarity">找相似</string>
-
+    <!--home页面中部按钮-->
+    <string name="home_mid_0">市场行情</string>
+    <string name="home_mid_1">现货资源</string>
+    <string name="home_mid_2">采购信息</string>
+    <string name="home_mid_3">最新供应</string>
+    <string name="home_mid_4">家装DIY</string>
+    <string name="home_mid_5">配套服务</string>
+    <string name="home_mid_6">场景设计</string>
+    <string name="home_mid_7">找货助手</string>
 
 
 </resources>

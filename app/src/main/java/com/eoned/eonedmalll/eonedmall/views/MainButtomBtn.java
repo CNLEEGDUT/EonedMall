@@ -53,6 +53,14 @@ public class MainButtomBtn extends LinearLayout {
         tv.setText(tvString);
     }
 
+    public void setTv(String tvString){
+        tv.setText(tvString);
+    }
+
+    public void setIv(int imgRes){
+        iv.setImageResource(imgRes);
+    }
+
     public void setTvColor(int color){
         tv.setTextColor(color);
     }

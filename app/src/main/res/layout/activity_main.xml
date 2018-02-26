@@ -38,6 +38,14 @@
         android:layout_height="@dimen/bom_btn_hei"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btn_category"
+        app:layout_constraintRight_toLeftOf="@id/btn_price"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
+
+    <com.eoned.eonedmalll.eonedmall.views.MainButtomBtn
+        android:id="@+id/btn_price"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/bom_btn_hei"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btn_cart"
         app:layout_constraintRight_toLeftOf="@id/btn_me"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
 
     <com.eoned.eonedmalll.eonedmall.views.MainButtomBtn
@@ -45,6 +53,6 @@
         android:layout_width="0dp"
         android:layout_height="@dimen/bom_btn_hei"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/btn_cart"
+        app:layout_constraintLeft_toRightOf="@id/btn_price"
         app:layout_constraintRight_toRightOf="parent"></com.eoned.eonedmalll.eonedmall.views.MainButtomBtn>
 </android.support.constraint.ConstraintLayout>

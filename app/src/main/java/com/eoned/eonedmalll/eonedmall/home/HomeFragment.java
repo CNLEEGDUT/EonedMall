@@ -167,14 +167,14 @@ public class HomeFragment extends BaseFragment {
             }
         });
 
-        btn0.setIvAndTv(R.drawable.testbombtniv,"hello0");
-        btn1.setIvAndTv(R.drawable.testbombtniv,"hello1");
-        btn2.setIvAndTv(R.drawable.testbombtniv,"hello2");
-        btn3.setIvAndTv(R.drawable.testbombtniv,"hello3");
-        btn4.setIvAndTv(R.drawable.testbombtniv,"hello4");
-        btn5.setIvAndTv(R.drawable.testbombtniv,"hello5");
-        btn6.setIvAndTv(R.drawable.testbombtniv,"hello6");
-        btn7.setIvAndTv(R.drawable.testbombtniv,"hello7");
+        btn0.setIvAndTv(R.mipmap.new_year_index_category_b1,getResources().getString(R.string.home_mid_0));
+        btn1.setIvAndTv(R.mipmap.new_year_index_category_b2,getResources().getString(R.string.home_mid_0));
+        btn2.setIvAndTv(R.mipmap.new_year_index_category_b3,getResources().getString(R.string.home_mid_0));
+        btn3.setIvAndTv(R.mipmap.new_year_index_category_b4,getResources().getString(R.string.home_mid_0));
+        btn4.setIvAndTv(R.mipmap.new_year_index_category_b5,getResources().getString(R.string.home_mid_0));
+        btn5.setIvAndTv(R.mipmap.new_year_index_category_b6,getResources().getString(R.string.home_mid_0));
+        btn6.setIvAndTv(R.mipmap.new_year_index_category_b7,getResources().getString(R.string.home_mid_0));
+        btn7.setIvAndTv(R.mipmap.new_year_index_category_b8,getResources().getString(R.string.home_mid_0));
 
         mHomeRvAdapter.setHeadView1(view);
     }
@@ -188,11 +188,12 @@ public class HomeFragment extends BaseFragment {
         BGABanner topBanner = view.findViewById(R.id.fb_home_top);
 
         List<String> bigPics = new ArrayList<>();
-        bigPics.add("https://gd2.alicdn.com/imgextra/i2/380101244/TB2HHzZdNmJ.eBjy0FhXXbBdFXa_!!380101244.jpg");
-        bigPics.add("https://gd4.alicdn.com/imgextra/i4/380101244/TB2qUNua4mI.eBjy0FlXXbgkVXa_!!380101244.jpg");
-        bigPics.add("https://gd1.alicdn.com/imgextra/i1/380101244/TB2REFwa9qJ.eBjy1zbXXbx8FXa_!!380101244.jpg");
-        bigPics.add("https://gd4.alicdn.com/imgextra/i4/380101244/TB2Ye4taZeK.eBjSszgXXczFpXa_!!380101244.jpg");
-        bigPics.add("http://ob9thtnhs.bkt.clouddn.com/tuisong/da386d4d7872451ca346ba6e37da17b6.jpg?e=1477544913&token=m2BF8x75sZF4DIfwnxFri5sT51HeuFRmU2Ue0uVf:LWGBH77qhKA_BEcdgUA5u5AebR0=");
+        bigPics.add("http://www.eoned.com/public/upload/special/2018/01-30/59b8a00d1cdb687f09ae2a5021388623.jpg");
+        bigPics.add("http://www.eoned.com/public/upload/special/2018/01-30/ceff73a2d03f0fde796f52dfabccfaab.jpg");
+        bigPics.add("http://www.eoned.com/public/upload/special/2018/01-30/7906045cd1b1776496a35b41f68c8d80.jpg");
+        bigPics.add("http://www.eoned.com/public/upload/special/2018/01-30/32bc268321a65379a27d52b047fb0af6.jpg");
+        bigPics.add("http://www.eoned.com/public/upload/special/2018/02-03/1ace7c944eafc909dfc0577e416e3db1.jpg");
+        bigPics.add("http://www.eoned.com/public/upload/special/2018/02-03/1ace7c944eafc909dfc0577e416e3db1.jpg");
 
         topBanner.setAdapter(new BGABanner.Adapter() {
             @Override
