@@ -85,7 +85,7 @@ public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
         if (layoutManager instanceof GridLayoutManager) {
 
             //因为第一个是banner,不需要绘制右边
-            if (pos == 0) {
+            if (pos == 0 || pos == 1 || pos == 2) {
                 return true;
             }
             if ((pos + 1) % spanCount == 0)// 如果是最后一列，则不需要绘制右边

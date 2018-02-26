@@ -55,7 +55,19 @@ public class HomeFragment extends BaseFragment {
 
         initmiddlebtns(mHomeRvAdapter);
 
+        initmiddletitle(mHomeRvAdapter);
+
         initRv(mHomeRvAdapter);
+    }
+
+
+    /**
+     * 初始化中间件标题
+     *
+     * @param mHomeRvAdapter*/
+    private void initmiddletitle(HomeRvAdapter mHomeRvAdapter) {
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.view_homefragment_middletitle, null);
+        mHomeRvAdapter.setHeadView2(view);
     }
 
 
@@ -71,6 +83,8 @@ public class HomeFragment extends BaseFragment {
                 if (postion == 0) {
                     return 2;
                 } else if (postion == 1) {
+                    return 2;
+                }else if (postion == 2) {
                     return 2;
                 } else {
                     return 1;
@@ -179,8 +193,6 @@ public class HomeFragment extends BaseFragment {
         bigPics.add("https://gd1.alicdn.com/imgextra/i1/380101244/TB2REFwa9qJ.eBjy1zbXXbx8FXa_!!380101244.jpg");
         bigPics.add("https://gd4.alicdn.com/imgextra/i4/380101244/TB2Ye4taZeK.eBjSszgXXczFpXa_!!380101244.jpg");
         bigPics.add("http://ob9thtnhs.bkt.clouddn.com/tuisong/da386d4d7872451ca346ba6e37da17b6.jpg?e=1477544913&token=m2BF8x75sZF4DIfwnxFri5sT51HeuFRmU2Ue0uVf:LWGBH77qhKA_BEcdgUA5u5AebR0=");
-
-//        topBanner.setImagesUrl(bigPics);
 
         topBanner.setAdapter(new BGABanner.Adapter() {
             @Override
