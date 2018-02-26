@@ -18,21 +18,26 @@
         android:id="@+id/ng_tv_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Apple iPad mini 4 平板电脑 7.9英寸（128G WLAna显示屏/Touch ID技术 MK9P2CH）银色"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ng_iv_pic"
-        android:ellipsize="end"
-        android:maxLines="2"
-        android:text="Apple iPad mini 4 平板电脑 7.9英寸（128G WLAN版/A8芯片/Retina显示屏/Touch ID技术 MK9P2CH）银色Apple iPad mini 4 平板电脑 7.9英寸（128G WLAN版/A8芯片/Retina显示屏/Touch ID技术 MK9P2CH）银色" />
+        app:layout_constraintTop_toBottomOf="@id/ng_tv_price" />
 
     <TextView
         android:id="@+id/ng_tv_price"
-        android:layout_width="0dp"
-        android:layout_height="0dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="¥2699.00"
+        android:textColor="@color/red_cd0000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ng_iv_pic" />
 
-    <TextView
-        android:id="@+id/ng_tv_find"
-        android:layout_width="0dp"
-        android:layout_height="0dp" />
+
 
 </android.support.constraint.ConstraintLayout>

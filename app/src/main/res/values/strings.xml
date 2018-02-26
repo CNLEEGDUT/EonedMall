@@ -6,4 +6,10 @@
     <string name="bom_btn_category">类别</string>
     <string name="bom_btn_cart">购物车</string>
     <string name="bom_btn_me">我的</string>
+
+    <!--home页面-->
+    <string name="find_similarity">找相似</string>
+
+
+
 </resources>

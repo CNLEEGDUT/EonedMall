@@ -1,8 +1,12 @@
 package com.eoned.eonedmalll.eonedmall.home;
 
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.eoned.eonedmalll.eonedmall.R;
+import com.eoned.eonedmalll.eonedmall.utils.UIUtils;
 
 /**
  * Created by Administrator on 2018/2/25.
@@ -42,9 +46,8 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }else if (viewType == HEADER2) {
             return new MiddleTitleHolder(headView2);
         } else {
-
+            return new SpotGoodsHolder(LayoutInflater.from(UIUtils.getContext()).inflate(R.layout.view_homefragment_spotgoods,parent,false));
         }
-        return null;
     }
 
     @Override
@@ -67,7 +70,7 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 20;
     }
 
 
@@ -109,6 +112,12 @@ public class HomeRvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     class MiddleTitleHolder extends RecyclerView.ViewHolder {
         public MiddleTitleHolder(View itemView) {
+            super(itemView);
+        }
+    }
+
+    class SpotGoodsHolder extends RecyclerView.ViewHolder{
+        public SpotGoodsHolder(View itemView) {
             super(itemView);
         }
     }
